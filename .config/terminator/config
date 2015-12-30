@@ -1,0 +1,89 @@
+
+[global_config]
+  title_transmit_bg_color = "#000000"
+  handle_size = 2
+  title_inactive_bg_color = "#000000"
+[keybindings]
+  hide_window = <Shift><Control>a
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_lines = 5000
+    use_system_font = False
+    cursor_color = "#002b36"
+    foreground_color = "#002b36"
+    scroll_on_output = False
+    show_titlebar = False
+    font = Inconsolata 10
+    background_color = "#eee8d5"
+    cursor_blink = False
+    scrollback_infinite = True
+  [[solarized-dark]]
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_lines = 5000
+    use_system_font = False
+    cursor_color = "#eee8d5"
+    foreground_color = "#eee8d5"
+    scroll_on_output = False
+    show_titlebar = False
+    font = Inconsolata 10
+    background_color = "#002b36"
+    cursor_blink = False
+    scrollback_infinite = True
+  [[solarized-light]]
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_lines = 5000
+    use_system_font = False
+    cursor_color = "#002b36"
+    foreground_color = "#002b36"
+    scroll_on_output = False
+    show_titlebar = False
+    font = Inconsolata 10
+    background_color = "#eee8d5"
+    cursor_blink = False
+    scrollback_infinite = True
+    background_darkness = 0.90 #(or anything else between 0-1)
+    background_type = transparent
+  [[railcasts]]
+    foreground_color = "#e6e1dc"
+    background_color = "#2b2b2b"
+    pallete = "#2b2b2b:#da4939:#a5c261:#ffc66d:#6d9cbe:#b6b3eb:#519f50:#e6e1dc:#5a647e:#da4939:#a5c261:#ffc66d:#6d9cbe:#b6b3eb:#519f50:#f9f7f3"
+    background_darkness = 0.90
+    background_type = transparent
+  [[bespin]]
+    foreground_color = "#8a8986"
+    background_color = "#28211c"
+    palette = "#28211c:#cf6a4c:#54be0d:#f9ee98:#5ea6ea:#9b859d:#afc4db:#8a8986:#666666:#cf6a4c:#54be0d:#f9ee98:#5ea6ea:#9b859d:#afc4db:#baae9e"
+    background_darkness = 0.87
+    background_type = transparent
+  [[eighties]]
+    foreground_color = "#d3d0c8"
+    background_color = "#2d2d2d"
+    palette = "#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec"
+    background_darkness = 0.88
+    background_type = transparent
+  [[flat]]
+    foreground_color = "#e0e0e0"
+    background_color = "#2C3E50"
+    palette = "#2C3E50:#E74C3C:#2ECC71:#F1C40F:#3498DB:#9B59B6:#1ABC9C:#e0e0e0:#95A5A6:#E74C3C:#2ECC71:#F1C40F:#3498DB:#9B59B6:#1ABC9C:#ECF0F1"
+    background_darkness = 0.92
+    background_type = transparent
+  [[mocha]]
+    foreground_color = "#d0c8c6"
+    background_color = "#3B3228"
+    palette = "#3B3228:#cb6077:#beb55b:#f4bc87:#8ab3b5:#a89bb9:#7bbda4:#d0c8c6:#7e705a:#d28b71:#534636:#645240:#b8afad:#e9e1dd:#bb9584:#f5eeeb"
+    background_darkness = 0.90
+    background_type = transparent
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = flat
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
