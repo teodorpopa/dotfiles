@@ -1,5 +1,7 @@
 # Teo's dotfiles
 
+![ScreenShot](https://raw.github.com/teodorpopa/dotfiles/master/screenshot.png)
+
 ## Requirements
 
 * [i3gaps](https://github.com/Airblader/i3/wiki/Compiling-&-Installing)
